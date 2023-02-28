@@ -60,7 +60,7 @@ pnpm create trigger@latest supabase-to-loops
 
 Follow the instructions in the CLI to get up and running locally in <30s.
 
-## 💿 Get your Loops.so API Key
+## 🔁 Get your Loops.so API Key
 
 Follow the instructions in [the Loops.so API docs](https://tryloops.notion.site/API-5b453a52dd7c4b419aa4647410de9770) for how to get your API Key.
 
