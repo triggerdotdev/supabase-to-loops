@@ -1,0 +1,13 @@
+services:
+  - type: worker
+    env: node
+    name: supabase-to-loops
+    buildCommand: "npm install && npm run build"
+    startCommand: "node dist/index.js"
+    autoDeploy: true
+    plan: starter
+    envVars:
+      - key: TRIGGER_API_KEY
+        sync: false
+      - key: LOOPS_API_KEY
+        sync: false
