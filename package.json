@@ -2,14 +2,11 @@
   "name": "@trigger.dev/templates-supabase-to-loops",
   "version": "1.0.0",
   "description": "Trigger.dev template for sending new users in Supabase to Loops.so",
-  "main": "dist/index.js",
+  "main": "src/index.ts",
   "private": true,
   "scripts": {
-    "clean": "rimraf dist",
-    "build": "npm run clean && npm run build:tsc",
-    "build:tsc": "tsc",
     "dev": "tsx watch --require ./node_modules/dotenv/config src/index.ts",
-    "start": "node dist/index.js"
+    "start": "tsx src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -20,8 +17,6 @@
     "@tsconfig/node18": "^1.0.1",
     "@types/node": "16",
     "dotenv": "^16.0.3",
-    "rimraf": "^3.0.2",
-    "tsup": "^6.5.0",
     "tsx": "^3.12.2",
     "typescript": "^4.9.4"
   },
