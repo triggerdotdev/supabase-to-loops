@@ -11,7 +11,7 @@
   "keywords": [],
   "author": "",
   "dependencies": {
-    "@trigger.dev/sdk": "^0.2.22-next.0"
+    "@trigger.dev/sdk": "^0.2.22"
   },
   "devDependencies": {
     "@tsconfig/node18": "^1.0.1",
